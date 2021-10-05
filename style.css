@@ -7,6 +7,75 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 /* Add styles here! */
+
+header{
+  border-bottom: 5px solid dimgray;
+}
+
+.max-width-wrapper{
+  max-width: 500px;
+  margin: auto;
+  background: inherit;
+}
+
+.intro-chunk{
+  max-width: 300px;
+  margin-top: 20px;
+  margin-bottom: 35px;
+
+  padding: 20px;
+}
+
+.intro-chunk p{
+  line-height: 1.5;
+}
+
+.intro-chunk strong{
+  color:  green;
+}
+
+.title{
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+}
+
+main{
+  background: darkgray;
+  padding: 50px 0;
+}
+
+.card{
+  background: white;
+  padding: 20px;
+  padding-top: 5px;
+  border-bottom: 5px solid dimgray;
+}
+
+.indented-heading{
+  font-size: 1rem;
+  background: hsl(45, 100%, 50%);
+  border-bottom: 5px solid hsl(45, 100%, 40%);;
+  padding:  15px 30px;
+  margin-top: 0;
+  margin-left: -30px;
+  width:  fit-content;
+}
+
+.card p{
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
